@@ -23,3 +23,20 @@ else {
     console.log("năm k nhuận");
     
 }
+switch (month){
+
+    case 1:
+    case 3:
+    case 5:
+        console.log(31);
+        break;
+    case 2:
+        console.log("28 hoặc 29");
+        break;
+    case 4:
+        console.log("30");
+        break;
+    default:
+        console.log("nhập sai");
+        
+}
