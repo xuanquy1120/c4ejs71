@@ -6,7 +6,7 @@
 //     console.log(index);
 // }
 // for (let index = 10; index > 0; index--) {
-//     console.log(index);  
+//     console.log(index);
 // }
 // console.log("nhập hai số m và n");
 
@@ -21,11 +21,11 @@
 // else if(m>n){
 //     for(n;n<m;n++){
 //         console.log(n);
-//     }   
+//     }
 // }
 // else{
 //     console.log(m);
-    
+
 // }
 // a=(m<=n?m:n)
 // let a=Math.min(m,n);
@@ -45,40 +45,39 @@
 // let s8=0;
 
 // for(let i=0;i<=n;i++){
-//     s+=i;    
+//     s+=i;
 // }
 // console.log(s);
 
 // for(let i=0;i<=n;i+=2){
-//     s1+=i;    
+//     s1+=i;
 // }
 // console.log(s1);
 
 // for(let i=1;i<=n;i+=2){
-//     s2+=i;    
+//     s2+=i;
 // }
 // console.log(s2);
 
 // for(let i=1;i<=n;i++){
-//     s4+=(1/i);    
+//     s4+=(1/i);
 // }
 // console.log(s4);
 
 // for(let i=1;i<=n;i++){
-//     s5+=(1/((i+1)*i));    
+//     s5+=(1/((i+1)*i));
 // }
 // console.log(s5);
 
 // for(let i=0;i<=n;i++){
-//     s6+=(i/(i+1));    
+//     s6+=(i/(i+1));
 // }
 // console.log(s6);
 
 // for(let i=1;i<=n;i++){
-//     s7*=i;    
+//     s7*=i;
 // }
 // console.log(s7);
-
 
 // for(let i=1;i<=n;i++){
 //     let a=1;
@@ -100,11 +99,30 @@
 // }
 // console.log(n);
 
-let txt=(prompt("nhập một chuỗi"));
-let sln=txt.length;
+// let txt=(prompt("nhập một chuỗi"));
+// let sln=txt.length;
 
+// while (!(sln>8 && txt.search("@")>=0)){
+//     txt=(prompt("nhập lại mật khẩu"));
+// }
 
-while (!(sln>8 && txt.search("@")>=0)){
-    txt=(prompt("nhập lại mật khẩu"));
+// let a=Number(prompt("nhap chieu dai"));
+// let b=Number(prompt("nhap chieu rong"));
+//  for(let i=0; i<b; i++){
+//     for(let j=0;j<a;i++){
+//         let txt=txt+"*";
+//         let sln=txt.lenght;
+//             if(sln===a)
+//             {
+//                 console.log(txt);
+//             }
+//     }
+//     console.log("\n");
+//  }
+let n = 10;
+for (let i = 0; i <= n; i++) {
+  if (i % 2 === 1) {
+    break;
+  }
+  console.log(i);
 }
-
