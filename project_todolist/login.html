@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="login.css" />
+</head>
+<body>  
+    <div class="container">
+        <h1>Log in</h1>
+        <div class="container-header">
+            <div id="userName" class="header-username">
+                Username : <input onkeyup="submit(event)" id="userName" type ="text">
+            </div>
+            <div id="passWord" class="header-password">
+                Password : <input onkeyup="submit(event)" id="passWord" type="passWord">
+            </div>
+            <div id="login" class="header-login" >
+                <button onclick="login()">login</button>
+            </div>
+            <h6>Don't have an account ?</h6>
+            <div class="header-register">
+                <a href="register.html">Sign up</a>
+            </div>
+        </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>

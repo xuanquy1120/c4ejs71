@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+    <link rel="stylesheet" href="login.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Sing up</h1>
+        <div class="container-header">
+            <div  class="header-username">
+                Username : <input onkeyup="submit(event)" id="userName" type ="text">
+            </div>
+            <div  class="header-password">
+                Password : <input onkeyup="submit(event)" id="passWord" type="passWord">
+            </div>
+            <div  class="header-confirmpassword">
+                Confirm password : <input onkeyup="submit(event)" id="conFirm" type="confirmpassword">
+            </div>
+            <div id="register" class="header-register" >
+                <button onclick="register()">register</button>
+            </div>
+        </div>
+    </div>
+    <script src="register.js"></script>
+</body>
+</html>
